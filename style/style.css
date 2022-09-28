@@ -130,13 +130,15 @@ a.externo::after{
 
 main h1 {
     color:#1a5c37;
-    font-family: var(--font-android);
+    font-family: var(--font-padrao);
+    font: bold;
     
 }
 
 main h2 {
     color:#1a5c37;
-    font-family: var(--font-android);
+    font-family: var(--font-padrao);
+    font: bold;
     
 }
 

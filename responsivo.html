@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Responsivo</title>
+    <style>
+        body{
+            background-color: gray;
+
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Responsividade</h1>
+        <p>Devemos sempre deixar o nosso site responsivo, pois um site responsivo é um site que  o usúario utiliza de qualquer plataforma e sua navagação é visualizada sem interferência.</p>
+        <p></p>
+        <p>Utlizamos as tags <mark>min-width: e max-width:</mark> para indicar o padrão máximo e minimo da largura do nosso site, além disso utilizamos a tag <mark>picture</mark> dentro uma de uma imagem e usamos também o <mark>source media="(max-width:600px)" srcset="irina-blok-pq.jpg  </mark>, com ele informamos o númemo máximo de pixels da imagem e quando atingir informamos uma imagem menor para ele utilizarcomo no exemplo abaixo. Ou seja se a imagem atingir 600 px a imagem mostrada será Irinablok-pq e não a irinablok.</p>
+        <p></p>
+        <p>Utilizamos também a extensão <strong><a href="https://coolx10.com/window-resizer/welcome.php" target="_blank" >Window Resizer</a></strong> para visualizar os pixels de nossa página e avaliar como é a pré visualização em um celular ou pixels específicos informados na extensão.</p>
+        <picture>
+            <source media="(max-width:600px)" srcset="irina-blok-pq.jpg">
+            <img src="irina-blok.jpg" alt="foto Irina Block">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia harum, voluptatibus in illum ipsum, veritatis vitae quos nihil deserunt dicta pariatur eius quasi porro ducimus impedit error totam tenetur. Nihil.</p>
+        
+    </main>
+</body>
+</html>
